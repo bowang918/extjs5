@@ -1,0 +1,93 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.navbar-inverse .headerTel{
+	margin-top :0;
+	margin-left :0;
+	margin-bottom :0;
+}
+
+.headerTel{
+	padding-top :0;
+	padding-bottom :0;
+}
+
+.headerTelNumber{
+	font-size: 20px;
+	font-weight :bold;
+	margin-bottom :0px;
+	color:#1abc9c;
+}
+
+.headerTelText{
+	margin-top :0px;
+	margin-left :2px;
+	font-size: 12px;
+	/* color:#f06428; */
+}
+
+.productServiceHeader{
+	margin-top :10px;
+}
+
+.product-divider{
+	margin-top :10px;
+	margin-bottom : 30px;
+}
+
+.slogan{
+	display : block;
+	margin-top :10px;
+	margin-bottom : 10px;
+}
+
+.on-light,.on-dark,.on-grey {
+    padding: 80px 0
+}
+
+#clients {
+    background-color: #f7f7f7;
+    padding: 10px 0
+}
+
+#clients h3 {
+    font-size: 14px;
+    color: #666;
+    margin: 15px 0;
+}
+
+@media (max-width: 640px) {
+    #clients h3 {
+        font-size:24px
+    }
+}
+
+#clients .adjustable {
+    padding: 0 15px 15px
+}
+
+.adjustable img {
+    width: 100%
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center
+}
+
+.cf,.clearfix,.row {
+    *zoom: 1
+}
+
+.cf:before,.cf:after,.clearfix:before,.row:before,.clearfix:after,.row:after {
+    content: " ";
+    display: table
+}
+
+.cf:after,.clearfix:after,.row:after {
+    clear: both
+}
+
