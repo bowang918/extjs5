@@ -1,4 +1,4 @@
 extjs5
 ======
 
-It's a starter project using extjs5.0 , servlet 3.0 
+It contains some example starter project that using extjs5.0 builed without SenchaCMD
