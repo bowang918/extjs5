@@ -15,7 +15,7 @@
 	</properties>
 
 	<build>
-	  <finalNam>sencha-charts</finalName>
+	  <finalName>sencha-charts</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
