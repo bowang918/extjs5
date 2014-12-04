@@ -7,7 +7,7 @@
 	<version>5.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>sencha-charts</name>
+	<name>ext-all-debug</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
