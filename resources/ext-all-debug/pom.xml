@@ -15,7 +15,7 @@
 	</properties>
 
 	<build>
-	  <finalNam>ext-all-debug</finalName>
+	  <finalName>ext-all-debug</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
