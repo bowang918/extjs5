@@ -1,6 +1,7 @@
 Ext.define('App.view.main.Main', {
 	extend : 'Ext.container.Container',
-	requires : [ 'App.view.main.Header' ],
+	requires : [ 'App.view.main.Header', 'App.view.main.SideBar',
+			'App.view.main.MainController' ],
 	controller : {
 		xclass : 'App.view.main.MainController'
 	},
@@ -12,12 +13,17 @@ Ext.define('App.view.main.Main', {
 		height : 50
 	}, {
 		region : 'west',
-		width : 240,
-		title : 'Navigation',
+		xtype : 'appSideBar',
+		reference : 'appNavigationTree',
 		split : true
 	}, {
 		region : 'center',
+		reference : 'appMainTabpanel',
 		xtype : 'tabpanel',
-		items : []
+		items : [],
+		listeners:{
+			tabchange:'onMainTabPanelTabChange',
+			remove:'onMainTabPanelRemove'
+		}
 	} ]
 });
